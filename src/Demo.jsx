@@ -13,6 +13,7 @@ function callFun(ele) {
     data.map((ele) =>{
         return(
             <button id={ele}  onClick={()=>{callFun(ele)}}>Demo</button>
+            <button id={ele}  onClick={()=>{callFun(ele)}}>Demo</button>
 
         )
     })}
