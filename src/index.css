@@ -1,0 +1,60 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+html,body{
+  width: 100%;
+}
+
+/* card zoom effects */
+
+/* .img-fluid,.card-img-top{
+  transition: all 0,3s;
+}
+.img-fluid:hover,.card-img-top:hover{
+  transform:scale(1.05);
+}
+.img-fluid{
+  overflow:hidden;
+} */
+
+.img-hover-zoom img {
+  transition: transform 0.2s ease-out;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.1);
+}
+
+.img-hover-zoom {
+  overflow: hidden;
+}
+
+
+.option-content {
+  display: none;
+  /* Hide content by default */
+  position: relative;
+  /* Position the content absolutely */
+  background-color: #f9f9f9;
+  /* Add styling to the content */
+  padding: 10px;
+  border: 1px solid #ccc;
+  z-index: 1;
+  /* Ensure content appears on top of other elements */
+}
+.pointer{
+  cursor: pointer;
+}
+.bg-hover:hover{
+  background-color:blue;
+  color:white;
+  cursor: pointer;
+}
+
+.hover-effect:hover{
+  background-color:black;
+  
+}
+
